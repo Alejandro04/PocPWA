@@ -1,7 +1,7 @@
 if('serviceWorker' in navigator){
     navigator.serviceWorker
     // give complete path of sw.js file
-    .register('https://poc-pwa-omega.vercel.app/offline-app/sw.js')
+    .register('https://poc-pwa-omega.vercel.app/sw.js')
     .then(() => console.log('Service Worker Registered'))
 }
 
